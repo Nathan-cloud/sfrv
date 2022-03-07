@@ -4650,15 +4650,19 @@ hero-style3
   margin-top: -60px;
   border-radius: 5px;
 }
-
+.wpo-blog-content h2:hover {
+  color: #fff;
+}
 .wpo-blog-content span {
   font-size: 13px;
   color: #999;
   padding-left: 20px;
 }
-
+.wpo-blog-content span:hover {
+  color: #fff;
+}
 .wpo-blog-content h2 {
-  font-size: 24px;
+  font-size: 19px;
   font-weight: 600;
   margin-bottom: 0;
   margin-top: 10px;
@@ -4693,7 +4697,9 @@ hero-style3
 .wpo-blog-item:hover .wpo-blog-content span {
   color: #666;
 }
-
+.wpo-blog-item:hover .wpo-blog-content span {
+  color: #fff;
+}
 .wpo-blog-item:hover .wpo-blog-content h2:before {
   background: #062265;
 }
