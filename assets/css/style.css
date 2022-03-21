@@ -4051,10 +4051,13 @@ hero-style3
 .case-btn ul li:last-child a {
   background-image: linear-gradient(to right, #00a7d5, #2680bb);
   color: #fff;
+  font-size: 16px;
 }
 
 .wpo-case-img img {
   width: 100%;
+
+
 }
 
 .wpo-case-item {
