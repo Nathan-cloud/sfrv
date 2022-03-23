@@ -5670,6 +5670,7 @@ breadcumb-style
   display: block;
   width: 160px;
   height: 45px;
+  font-size: 14px;
   line-height: 24px;
   text-align: center;
   border-radius: 40px;
@@ -5732,7 +5733,7 @@ breadcumb-style
 
 .case-bb-text ul li {
   font-size: 15px;
-  font-size: 0.9375rem;
+
   position: relative;
   padding-left: 20px;
   padding-bottom: 10px;
@@ -5945,11 +5946,16 @@ breadcumb-style
 #Donations .submit-area {
   text-align: center;
 }
-
+.wpo-case-details-wrap{
+  width: 70%;
+  margin: auto;
+}
 @media (max-width: 992px) {
   .wpo-event-details-wrap {
     margin-bottom: 30px;
+    width: 100%;
   }
+
 }
 
 @media (max-width: 590px) {
