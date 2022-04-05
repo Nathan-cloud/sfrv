@@ -80,7 +80,7 @@ img {
 }
 
 .donwload-left::after {
-  /* background-image: url("../images/mobile-shadow.png"); */
+  /* background-image: url("../images/mobile-shadow.webp\"); */
   background-repeat: no-repeat;
   background-size: contain;
   bottom: -50px;
@@ -4178,7 +4178,7 @@ hero-style3
 .wpo-counter-area,
 .wpo-counter-style-2 {
   padding: 100px 0;
-  background: url(../images/counter/img-1.png) no-repeat center center / cover;
+  background: url(../images/counter/img-1.webp) no-repeat center center / cover;
   position: relative;
 }
 
@@ -4365,7 +4365,7 @@ hero-style3
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url(../images/world.png) no-repeat center center / cover;
+  background: url(../images/world.webp) no-repeat center center / cover;
   align-items: center;
   position: relative;
   z-index: 1;
@@ -4485,7 +4485,7 @@ hero-style3
   position: absolute;
   top: -8px;
   right: 15px;
-  background: url(../images/event/img-1.png) no-repeat center center / cover;
+  background: url(../images/event/img-1.webp) no-repeat center center / cover;
   width: 60px;
   height: 85px;
   text-align: center;
@@ -4494,11 +4494,11 @@ hero-style3
 }
 
 .wpo-event-img .thumb-text-2 {
-  background: url(../images/event/img-2.png) no-repeat center center / cover;
+  background: url(../images/event/img-2.webp) no-repeat center center / cover;
 }
 
 .wpo-event-img .thumb-text-3 {
-  background: url(../images/event/img-3.png) no-repeat center center / cover;
+  background: url(../images/event/img-3.webp) no-repeat center center / cover;
 }
 
 .wpo-event-img .thumb-text span,
@@ -4556,7 +4556,7 @@ hero-style3
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url(../images/cta.jpg) no-repeat center center / cover;
+  background: url(../images/cta.webp) no-repeat center center / cover;
   align-items: center;
   position: relative;
   z-index: 1;
@@ -4791,7 +4791,7 @@ hero-style3
 
 .hero-style-2 .right-vec:before {
   content: "";
-  background: url("../images/slider/img-3.png") center center/cover no-repeat
+  background: url("../images/slider/img-3.webp") center center/cover no-repeat
     local;
   width: 100%;
   height: 100%;
@@ -4802,7 +4802,7 @@ hero-style3
 
 .hero-style-2 .right-vec:after {
   content: "";
-  background: url("../images/slider/img-2.png") center center/cover no-repeat
+  background: url("../images/slider/img-2.webp") center center/cover no-repeat
     local;
   width: 100%;
   height: 100%;
@@ -4970,7 +4970,7 @@ breadcumb-style
 ------------------------------------------------------------------*/
 
 .wpo-breadcumb-area {
-  background: url(../images/breadcumb/img-1.jpg) no-repeat center top / cover;
+  background: url(../images/breadcumb/img-1.webp) no-repeat center top / cover;
   min-height: 350px;
   position: relative;
   display: flex;
