@@ -72,9 +72,9 @@ img {
 
 .download-area {
   padding: 18px 0 16px;
-  background: url(../images/bg2.png);
+  /* background: url(../images/bg2.png);
   background-size: 90%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .donwload-left {
@@ -2842,7 +2842,7 @@ img {
 }
 
 .hero .slick-dots button {
-  background-color: #f6c23f;
+  background-color: #2680bb;
   width: 14px;
   height: 14px;
   border: 2px solid #fff;
@@ -3870,9 +3870,9 @@ hero-style3
 ======================================================*/
 
 .wpo-about-area {
-  background: url(../images/bg.png);
+  /* background: url(../images/bg.png);
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .wpo-about-text .wpo-section-title,
