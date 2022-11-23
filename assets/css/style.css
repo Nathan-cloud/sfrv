@@ -62,12 +62,11 @@ img {
   max-width: 100%;
 }
 /*2.3 Download*/
-
-.download-area {
-  padding: 18px 0 16px;
-  /* background: url(../images/bg2.png);
-  background-size: 90%;
-  background-repeat: no-repeat; */
+.mb-5 {
+  margin-bottom: 100px;
+}
+.list-group-item {
+  background-color: #f7fbfe;
 }
 
 .donwload-left {
@@ -217,7 +216,7 @@ img {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 70px 0;
 }
 
 @media (max-width: 991px) {
@@ -3671,7 +3670,9 @@ hero-style3
 .wpo-news-letter-section-2 {
   background: #062265;
   text-align: center;
-  padding: 100px 0;
+  padding: 72px 0;
+  margin-top: -20px;
+  margin-bottom: 20px;
 }
 
 .wpo-news-letter-section-2 {
@@ -3784,8 +3785,8 @@ hero-style3
 
 .wpo-mission-area {
   background: #f7fbfe;
-  padding-bottom: 130px;
-  padding-top: 100px;
+  padding-bottom: 55px;
+  padding-top: 55px;
 }
 .wpo-mission-item {
   background: #fff;
