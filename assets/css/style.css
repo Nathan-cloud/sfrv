@@ -4104,6 +4104,7 @@ hero-style3
 #1.0 clint section
 ===============================*/
 .clients-section {
+  background: #ebf1f5;
   position: relative;
   padding: 50px 0 60px;
   margin-top: -100px;
@@ -4587,7 +4588,9 @@ hero-style3
 /*====================================
 #1.5 wpo-blog-area
 =====================================*/
-
+.wpo-blog-area {
+  background: #ebf1f5;
+}
 .wpo-blog-content {
   background: #fff;
   box-shadow: 0px 5px 9.8px 0.2px rgba(85, 85, 85, 0.07);
@@ -4825,6 +4828,10 @@ hero-style3
 
 .wpo-mission-area-2 .wpo-mission-item h2 {
   margin-top: 30px;
+}
+
+.wpo-case-area {
+  background: #ebf1f5;
 }
 
 .wpo-case-area,
