@@ -2627,6 +2627,7 @@ img {
 .wpo-header-style-2 .navigation ul,
 .wpo-header-style-3 .navigation ul {
   list-style: none;
+  margin-top: -8px;
 }
 
 @media screen and (min-width: 992px) {
@@ -2712,7 +2713,8 @@ img {
   position: absolute;
   z-index: 120;
   width: 100%;
-  background: rgba(255, 255, 255, 0.05);
+  height: 145px;
+  background: rgb(0 0 0 / 10%);
 }
 
 /*--------------------------------------------------------------
@@ -3291,6 +3293,7 @@ hero-style3
   width: 100%;
   position: fixed;
   left: 0;
+
   top: -200px;
   z-index: 9999;
   opacity: 0;
@@ -3649,6 +3652,7 @@ hero-style3
 
 .wpo-header-style-2 .navigation {
   background: transparent;
+  height: 85px;
 }
 
 @media (max-width: 1200px) {
