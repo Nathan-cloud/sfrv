@@ -1,7 +1,3 @@
-
-
-
-----------------------------------------------------------------*/
 /*---------------------------
   Fonts
 ----------------------------*/
@@ -10,13 +6,10 @@
 /*--------------------------------------------------------------
 #0.1    Theme Reset Style
 --------------------------------------------------------------*/
-html {
-  font-size: 16px;
-}
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #fff;
+  background-color: #f7fbfe;
   font-size: 16px;
   font-size: 1rem;
   color: #525252;
@@ -3314,19 +3307,6 @@ hero-style3
   top: 0;
 }
 
-.header-style-1 .sticky-header {
-  background-color: #ff5d1b;
-  border-bottom: 0;
-}
-
-.header-style-2 .sticky-header,
-.header-style-3 .sticky-header {
-  background-color: #fff;
-  border-bottom: 0;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-}
-
 /*--------------------------------------------------------------
 #0.5  wpo-footer
 --------------------------------------------------------------*/
@@ -3649,9 +3629,6 @@ hero-style3
   -o-transition: all 0.7s;
   -ms-transition: all 0.7s;
   transition: all 0.7s;
-  background: white;
-  -webkit-box-shadow: 0 0 15px rgba(218, 218, 218, 0.5);
-  box-shadow: 0 0 15px rgba(218, 218, 218, 0.5);
 }
 
 .sticky-on {
@@ -3809,7 +3786,6 @@ hero-style3
   background: #f7fbfe;
   padding-bottom: 130px;
   padding-top: 100px;
-  
 }
 .wpo-mission-item {
   background: #fff;
@@ -3817,13 +3793,13 @@ hero-style3
   padding: 50px 35px;
 }
 
-@media(max-width: 1199px) {
+@media (max-width: 1199px) {
   .wpo-mission-item {
-      padding: 50px 20px;
+    padding: 50px 20px;
   }
 
   .wpo-mission-item h2 {
-      font-size: 20px;
+    font-size: 20px;
   }
 }
 .wpo-mission-wrap {
@@ -3848,20 +3824,17 @@ hero-style3
   font-size: 14px;
 }
 
-
-
-
-@media(max-width: 992px) {
+@media (max-width: 992px) {
   .wpo-mission-item {
-      margin-bottom: 30px;
+    margin-bottom: 30px;
   }
 
   .wpo-mission-area-2 {
-      padding-bottom: 60px;
+    padding-bottom: 60px;
   }
 
   .wpo-mission-area {
-      padding-bottom: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -3896,9 +3869,9 @@ hero-style3
 .wpo-about-img-2 img {
   width: 100%;
 }
-.wpo-about-img{
+.wpo-about-img {
   position: relative;
-    top: -60px;
+  top: -60px;
 }
 @media (max-width: 1200px) {
   .wpo-about-img,
@@ -4061,8 +4034,6 @@ hero-style3
 
 .wpo-case-img img {
   width: 100%;
-
-
 }
 
 .wpo-case-item {
@@ -4935,9 +4906,9 @@ hero-style3
 /*============================================================
 #3.0 Home-style-3
 =============================================================*/
-@media(max-width: 475px) {
+@media (max-width: 475px) {
   .video-text a {
-      display: none;
+    display: none;
   }
 }
 .video-text a {
@@ -4961,7 +4932,6 @@ hero-style3
   left: 20%;
   box-shadow: 0px 2px 12.75px 2.25px rgba(51, 100, 219, 0.15);
   display: block !important;
-
 }
 
 .wpo-about-text .btns .video-holder a {
@@ -4972,10 +4942,9 @@ hero-style3
   animation: none;
 }
 
-
 .wpo-mission-icon {
   color: #fff;
-  width:70px;
+  width: 70px;
   background: #2680bbad;
   height: 70px;
   margin: auto;
@@ -4984,12 +4953,11 @@ hero-style3
   text-align: center;
   margin-bottom: 35px;
 }
-.wpo-mission-icon .fa{
+.wpo-mission-icon .fa {
   font-size: 35px;
   position: relative;
   top: -7px;
 }
-
 
 /*-----------------------------------------------------------------
 breadcumb-style
@@ -5972,7 +5940,7 @@ breadcumb-style
 #Donations .submit-area {
   text-align: center;
 }
-.wpo-case-details-wrap{
+.wpo-case-details-wrap {
   width: 70%;
   margin: auto;
 }
@@ -5981,7 +5949,6 @@ breadcumb-style
     margin-bottom: 30px;
     width: 100%;
   }
-
 }
 
 @media (max-width: 590px) {
@@ -6123,38 +6090,37 @@ breadcumb-style
 /*--------------------------------------------------------------
  Gallery
 --------------------------------------------------------------*/
-.gallery-block.grid-gallery{
+.gallery-block.grid-gallery {
   padding-bottom: 60px;
   padding-top: 60px;
 }
 
-.gallery-block.grid-gallery .heading{
-    margin-bottom: 50px;
-    text-align: center;
+.gallery-block.grid-gallery .heading {
+  margin-bottom: 50px;
+  text-align: center;
 }
 
-.gallery-block.grid-gallery .heading h2{
-    font-weight: bold;
-    font-size: 1.4rem;
-    text-transform: uppercase;
+.gallery-block.grid-gallery .heading h2 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-transform: uppercase;
 }
 
-.gallery-block.grid-gallery a:hover{
+.gallery-block.grid-gallery a:hover {
   opacity: 0.8;
 }
 
-.gallery-block.grid-gallery .item img{
+.gallery-block.grid-gallery .item img {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
   transition: 0.4s;
 }
 
-.gallery-block.grid-gallery .item{
+.gallery-block.grid-gallery .item {
   margin-bottom: 20px;
 }
 
 @media (min-width: 576px) {
-
-  .gallery-block.grid-gallery .scale-on-hover:hover{
+  .gallery-block.grid-gallery .scale-on-hover:hover {
     transform: scale(1.05);
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
   }
