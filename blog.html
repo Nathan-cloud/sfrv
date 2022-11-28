@@ -274,29 +274,6 @@
       <div class="wpo-ne-footer">
         <!-- start wpo-news-letter-section -->
         <section class="wpo-news-letter-section">
-          <div class="container">
-            <div class="row">
-              <div
-                class="col col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2"
-              >
-                <div class="wpo-newsletter">
-                  <h3>Follow us For further information</h3>
-                  <div class="wpo-newsletter-form">
-                    <form>
-                      <div>
-                        <input
-                          type="text"
-                          placeholder="Enter Your Email"
-                          class="form-control"
-                        />
-                        <button type="submit">Subscribe</button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
           <!-- end container -->
         </section>
         <!-- end wpo-news-letter-section -->
@@ -393,7 +370,53 @@
     <!-- end of page-wrapper -->
     <!-- All JavaScript files
     ================================================== -->
+    <div id="myModal" class="modal fade">
+      <div class="modal-dialog modal-newsletter">
+        <div class="modal-content">
+          <form action="#" method="post">
+            <div class="modal-header">
+              <h4>Join Our Newsletter</h4>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-hidden="true"
+              >
+                <span>&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+              <p>
+                Subscribe our newsletter to receive the latest news and
+                exclusive offers every week. No spam.
+              </p>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                  required
+                />
+                <input
+                  type="submit"
+                  class="btn btn-primary btn-block"
+                  value="Subscribe"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- end of page-wrapper -->
+    <!-- All JavaScript files
+================================================== -->
     <script src="assets/js/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#myModal").modal("show");
+      });
+    </script>
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- Plugins for this template -->
     <script src="assets/js/jquery-plugin-collection.js"></script>

@@ -376,9 +376,6 @@
 
     if ($(window).scrollTop() > 1000) {
       if (st > lastScrollTop) {
-        // hide sticky menu on scroll down
-        $targetMenu.removeClass($toggleClass);
-      } else {
         // active sticky menu on scroll up
         $targetMenu.addClass($toggleClass);
       }
